@@ -1,0 +1,1 @@
+print("Spell Checker käynnistyi")
