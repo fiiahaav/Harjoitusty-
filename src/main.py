@@ -1,6 +1,6 @@
-from levenshtein import laske_etaisyys
+from dictionary import lue_sanakirja
 
-taulukko = laske_etaisyys("kissa", "kisa")
+sanat = lue_sanakirja()
 
-for rivi in taulukko:
-    print(rivi)
+print(f"Sanoja löytyi: {len(sanat)}")
+print(sanat[:10])
