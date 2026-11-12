@@ -5,7 +5,14 @@ def laske_etaisyys(sana1, sana2):
     taulukko = []
 
     for i in range(rivit):
-        rivi = [0] * sarakkeet
-        taulukko.append(rivi)
+        taulukko.append([0] * sarakkeet)
+
+    # Ensimmäinen sarake
+    for i in range(rivit):
+        taulukko[i][0] = i
+
+    # Ensimmäinen rivi
+    for j in range(sarakkeet):
+        taulukko[0][j] = j
 
     return taulukko
