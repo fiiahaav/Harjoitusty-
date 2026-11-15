@@ -11,3 +11,9 @@ Projektin rakennetta ja riippuvuuksien hallintaa on kehitetty ottamalla käyttö
 
 #### Seuraavaksi tehtävät asiat
 Seuraavaksi tarkoituksena on toteuttaa oma Trie-tietorakenne sanakirjan tallentamista ja hakemista varten. Lisäksi tarkoituksena on kehittää projektille selainpohjainen käyttöliittymä Flaskilla. Yksikkötestejä tullaan täydentämään ja projektin toteutus- sekä testausdokumentaatiota aloitetaan.
+
+#### Tuntikirjanpito
+10.11. Aiheisiin ja kurssivaatimuksiin tutustumista, määrittelydokumentin raakaversio 2h
+11.11. Oman projektin aloittamista ja omaan aiheeseen syvempää tutustumista 3h
+12.11. Oman projektin jatkamista 2h
+15.11. Määrittelydokumentin muokkaaminen ohjaajan palautteen pohjalta sekä muun dokumentaation kirjoittaminen 2h
