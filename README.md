@@ -5,7 +5,7 @@ Projektissa toteutetaan suomenkielinen kirjoitusvirheiden korjaaja, joka hyödyn
 
 
 ## Dokumentaatio
-- [Määrittelydokumentti](documentation/projectspecification.md)
+- [Määrittelydokumentti](maarittelydokumentti.md)
 - [Viikko 3](viikkoraportti3.md)
 
   
