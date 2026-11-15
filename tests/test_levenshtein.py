@@ -18,7 +18,7 @@ def test_lisays():
 
 
 def test_korvaus():
-    assert laske_etaisyys("kissa", "kossi") == 1
+    assert laske_etaisyys("kissa", "kissi") == 1
 
 def test_vierekkaisten_merkkien_vaihto():
     assert laske_etaisyys("abc", "acb") == 1
