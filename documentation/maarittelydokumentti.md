@@ -13,27 +13,18 @@ Python
 - Javascript
 
 #### Projektin aihe: 
-Projektissa toteutetaan kirjoitusvirheiden korjaaja, joka hyödyntää Damerau-Levenshtein-etäisyyttä käyttäjän kirjoittaman sanan vertaamiseen sanakirjan sanoihin.
-
-## Ratkaistava ongelma
-
-Ohjelman tarkoituksena on tunnistaa käyttäjän kirjoittamia 
-kirjoitusvirheitä ja ehdottaa niille korjauksia. Ohjelma vertaa 
-käyttäjän syöttämää sanaa sanakirjan sanoihin ja etsii 
-pienimmän etäisyyden omaavat vaihtoehdot.
-
-Ohjelma palauttaa käyttäjälle viisi lähintä sanavaihtoehtoa.
+Ohjelman tarkoituksena on tunnistaa käyttäjän kirjoittamat virheet, sekä ehdottaa niille korjauksia. Ohjelma vertaa käyttäjn syöttämää sanaa sanakirjan sanoihin ja etsii sille lähimmät vaihtoehdot. 
+Ohjelma ehdottaa lähintä sanaa sanakirjasta. 
 
 ### Algoritmit ja tietorakenteet:
 ##### Algoritmit:
-- Damerau-Levenshtein-etäisyys
+- Levenshtein-etäisyys
 - Dynaaminen ohjelmointi
 
 ##### Tietorakenteet
-- Trie (toteutetaan itse)
 - 2-uloitteinen taulukko
 - lista
-- dictionary 
+- dictionary
 
 ### Syötteet: 
 Ohjelma saa syötteenä käyttäjän kirjoittaman sanan ja sanakirjan, joka sisältää oikieta sanoja
