@@ -1,12 +1,18 @@
-from dictionary import lue_sanakirja
-from levenshtein import laske_etaisyys
+from dictionary import lue_sanakirja, etsi_parhaat_ehdotukset
 
-sanat = lue_sanakirja()
 
-print(f"Sanoja löytyi: {len(sanat)}")
-# print(sanat[:10])
+def main():
+    sanat = lue_sanakirja()
 
-taulukko = laske_etaisyys("kissa", "kisa")
+    syote = input("Anna sana: ")
 
-for rivi in taulukko:
-    print(rivi)
+    ehdotukset = etsi_parhaat_ehdotukset(syote, sanat)
+
+    print("\nTarkoititko:")
+
+    for i, (_, sana) in enumerate(ehdotukset, start=1):
+        print(f"{i}. {sana}")
+
+
+if __name__ == "__main__":
+    main()
